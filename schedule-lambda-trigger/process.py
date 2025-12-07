@@ -8,10 +8,10 @@ def lambda_handler(event, context):
     """
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    print(f"--- Scheduled Lambda Invoked ---")
+    print("--- Scheduled Lambda Invoked ---")
     print(f"Invocation Time: {current_time}")
     print(f"Event Source: {event.get('source', 'Unknown')}")
-    print(f"The Lambda is running on a schedule.")
+    print("The Lambda is running on a schedule.")
 
     # Your processing logic goes here.
     # Example: Run database cleanup, send summary reports, check health, etc.
