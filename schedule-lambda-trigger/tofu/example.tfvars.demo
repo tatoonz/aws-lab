@@ -1,0 +1,2 @@
+aws_profile = "your-aws-profile"
+name_prefix = "some-unique-name-prefix"
